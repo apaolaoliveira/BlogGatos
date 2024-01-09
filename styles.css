@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-family: 'Mulish', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.logo, .avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.article-img {
+  width: 434px;
+  border-radius: .5rem;
+}
+
+figure img {
+  width: 151px;
+  object-fit: cover;
+  border-radius: .5rem;
+}
