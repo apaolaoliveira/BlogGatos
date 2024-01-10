@@ -7,23 +7,67 @@
 }
 
 :root {
-  font-family: 'Mulish', sans-serif;
   font-size: 62.5%;
+
+  --navy-blue-100: #065E7C;
+}
+
+body, input {
+  font-family: 'Mulish', sans-serif;
 }
 
 body {
   font-size: 1.6rem;
 }
 
-.logo, .avatar {
+header {
+  display: flex;
+  background-color: var(--navy-blue-100);
+  padding: 1.2rem 2.8rem;
+  gap: 2.5rem;
+}
+
+.avatar {
   width: 42px;
   height: 42px;
   border-radius: 50%;
 }
 
+.logo {
+  background-color: white;
+  padding: .8rem;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.input-wrapper label {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.input-wrapper input {
+  background-color: rgba(255, 255, 255, 0.20);
+  color: white;
+  border: none;
+  
+  width: 100%;
+  padding: 1.2rem 1.6rem;
+  border-radius: .8rem;
+  font-size: 1.6rem;
+  font-weight: 600;  
+}
+
+.input-wrapper input::placeholder {
+  color: white;
+}
+
 .article-img {
   width: 434px;
-  border-radius: .5rem;
+  border-radius: 0 0 .5rem .5rem;
 }
 
 figure img {
