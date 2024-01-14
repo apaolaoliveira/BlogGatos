@@ -76,6 +76,8 @@ main, aside {
 .article-img {
   width: 434px;
   border-radius: 0 0 .5rem .5rem;
+  filter: hue-rotate(7deg) contrast(101%) saturate(200%);
+  display: block;
 }
 
 .article-header {
@@ -126,6 +128,12 @@ main, aside {
   width: 151px;
   object-fit: cover;
   border-radius: .5rem;
+  transition: 300ms ease-out;
+}
+
+.related-article img:hover {
+  transform: scale(1.1);
+  filter: hue-rotate(7deg) contrast(101%) saturate(150%);
 }
 
 .related-article {
