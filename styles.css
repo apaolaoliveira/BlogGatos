@@ -170,3 +170,17 @@ footer p {
   font-weight: 600;
   color: white;
 }
+
+@media (min-width: 450px){
+  .page {
+    width: 100%;
+  }
+  
+  header {
+    justify-content: center;
+  }
+
+  .input-wrapper input {
+    width: 70vw;
+  }
+}
